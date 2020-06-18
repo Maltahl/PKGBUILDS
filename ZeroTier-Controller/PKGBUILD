@@ -2,7 +2,7 @@
 # Contributor:  pandada8 <pandada8@gmail.com>
 # Contributor:  Harry Jeffery <harry|@|exec64|.|co|.|uk>
 # Contributor:  Alex Jordan <alexander3223098@gmail.com>
-pkgname=zerotier-one-with-controller
+pkgname=zerotier-controller
 pkgver=1.4.6
 pkgrel=1
 pkgdesc="Creates virtual Ethernet networks of almost unlimited size. controller node version"
@@ -12,7 +12,7 @@ license=('GPL3')
 groups=()
 depends=("gcc-libs" "sqlite" "http-parser")
 makedepends=("ruby-ronn")
-conflicts=("zerotier-one" "zerotier-one-lastest")
+conflicts=("zerotier-one" "zerotier-one-lastest" "zerotier-one-with-controller")
 source=("https://github.com/zerotier/ZeroTierOne/archive/$pkgver.tar.gz")
 sha1sums=('b01a5167f8c9a28c80ed5fbae36c3b3cbbe55108')
 
