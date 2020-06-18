@@ -4,7 +4,7 @@
 # Contributor:  Alex Jordan <alexander3223098@gmail.com>
 pkgname=zerotier-controller
 pkgver=1.4.6
-pkgrel=1
+pkgrel=1.0.0
 pkgdesc="Creates virtual Ethernet networks of almost unlimited size. controller node version"
 arch=('i686' 'x86_64')
 url="https://www.zerotier.com"
