@@ -14,7 +14,7 @@ depends=("gcc-libs" "sqlite" "http-parser")
 makedepends=("ruby-ronn")
 conflicts=("zerotier-one" "zerotier-one-lastest" "zerotier-one-with-controller")
 source=("https://github.com/zerotier/ZeroTierOne/archive/$pkgver.tar.gz")
-sha1sums=('b01a5167f8c9a28c80ed5fbae36c3b3cbbe55108')
+sha1sums=('7169366213da0a515df05c73d5783500b664b7dc')
 
 build() {
   cd "$srcdir/ZeroTierOne-$pkgver"
